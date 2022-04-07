@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Louis Bayu/Documents/Bangkit/Belajar Pengembangan Aplikasi Android Intermediate/Dicoding-BPAAI/Localization &amp; Accessibility/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Louis Bayu/Documents/Bangkit/Belajar Pengembangan Aplikasi Android Intermediate/Dicoding-BPAAI/Localization &amp; Accessibility/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Louis Bayu/Documents/Bangkit/Belajar Pengembangan Aplikasi Android Intermediate/Dicoding-BPAAI/Localization &amp; Accessibility/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Louis Bayu/Documents/Bangkit/Belajar Pengembangan Aplikasi Android Intermediate/Dicoding-BPAAI/Localization &amp; Accessibility/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Louis Bayu/Documents/Bangkit/Belajar Pengembangan Aplikasi Android Intermediate/Dicoding-BPAAI/Localization &amp; Accessibility/LatihanLocalizationPadaTeksStarter/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
