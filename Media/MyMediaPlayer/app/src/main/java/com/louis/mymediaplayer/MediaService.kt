@@ -123,7 +123,7 @@ class MediaService : Service(), MediaPlayerCallback {
         createChannel(CHANNEL_DEFAULT_IMPORTANCE)
         startForeground(ONGOING_NOTIFICATION_ID, notification)
     }
-    
+
     private fun createChannel(CHANNEL_ID: String) {
         val mNotificationManager = applicationContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
