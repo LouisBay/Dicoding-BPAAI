@@ -62,10 +62,17 @@ dependencies {
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
-    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3"
 
     //coroutine support
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1" //viewModelScope
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1" //liveData
     implementation "androidx.room:room-ktx:2.4.2"
+
+    //mockito
+    testImplementation 'org.mockito:mockito-core:3.12.4'
+    testImplementation 'org.mockito:mockito-inline:3.12.4'
+
+    //special testing
+    testImplementation "androidx.arch.core:core-testing:2.1.0" // InstantTaskExecutorRule
 }
