@@ -18,7 +18,8 @@ class StudentListAdapter :
     }
 
     override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
-        holder.bind(getItem(position))
+        val student = getItem(position) as Student
+        holder.bind(student)
     }
 
     class WordViewHolder(private val binding: ItemStudentBinding) :
